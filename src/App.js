@@ -1,11 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
+import StoreIcon from '@mui/icons-material/Store';
+import SearchIcon from '@mui/icons-material/Search';
+import Header from './Components/Header';
 
 function App() {
   return (
     <div className="App">
-        <h1>HEllo Worlds !!!</h1>
+
+     <Header></Header>
     </div>
+
   );
 }
 
